@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo checking the tests in React app...
-      - npm run test
+      - CI=true npm run test
 
   build:
     commands:
