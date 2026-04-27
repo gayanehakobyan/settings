@@ -12,6 +12,10 @@ phases:
     commands:
       - echo Building the React app...
       - npm run build
+  test:
+    commands:
+      - echo checking the tests in React app...
+      - npm run test
 
 artifacts:
   files:
